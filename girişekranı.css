@@ -1,0 +1,107 @@
+body {
+    background: url("arkaplan3.jpg") 0 0 no-repeat fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.384);
+    width: 40%;
+    height: 500px;
+    margin: auto;
+    margin-top: 90px;
+    border: 1px solid;
+    border: 3px solid black;
+    text-shadow: 2px 2px black;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+#kul_ad {
+    width: 50%;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.384);
+    margin-left: 150px;
+    margin-top: 100px;
+    border-radius: 30px;
+    text-align: center;
+    outline: none;
+    border: 3px solid black;
+}
+
+#pass {
+    width: 50%;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.384);
+    margin-left: 150px;
+    margin-top: 60px;
+    border-radius: 30px;
+    text-align: center;
+    outline: none;
+    border: 3px solid black;
+}
+
+.myButtonn {
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+    background: linear-gradient(to bottom, #ff4f4f 5%, #f0c85b 100%);
+    background-color: #ff4f4f;
+    border-radius: 15px;
+    border: 2px solid #333029;
+    display: inline-block;
+    cursor: pointer;
+    color: #505739;
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 76px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.myButtonn:hover {
+    background: linear-gradient(to bottom, #f0c85b 5%, #ff4f4f 100%);
+    background-color: #f0c85b;
+}
+
+.myButtonn:active {
+    position: relative;
+    top: 1px;
+}
+
+.myButton {
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+    background: linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+    background-color: #eae0c2;
+    border-radius: 15px;
+    border: 2px solid #333029;
+    display: inline-block;
+    cursor: pointer;
+    color: #505739;
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 76px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+    background-color: #ccc2a6;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}

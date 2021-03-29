@@ -1,0 +1,200 @@
+body {
+    background: url("arkaplan1.jpg") 0 0 no-repeat fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.myButton {
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+    background: linear-gradient(to bottom, #000000 5%, #960e0e 100%);
+    background-color: #000000;
+    border-radius: 15px;
+    border: 2px solid #333029;
+    display: block;
+    cursor: pointer;
+    color: #f8010100;
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 18px 72px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    margin: auto !important;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #a71212 5%, #000000 100%);
+    background-color: #d11c1c;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.myButtonn {
+    box-shadow: inset 0px 1px 0px 0px #caefab;
+    background: linear-gradient(to bottom, #2f5210 5%, #5cb811 100%);
+    background-color: #2f5210;
+    border-radius: 6px;
+    border: 1px solid #2f8520;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 27px;
+    font-weight: bold;
+    padding: 6px 26px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #aade7c;
+    margin-left: 665px;
+    margin-top: 50px;
+}
+
+.myButtonn:hover {
+    background: linear-gradient(to bottom, #5cb811 5%, #2f5210 100%);
+    background-color: #5cb811;
+}
+
+.myButtonn:active {
+    position: relative;
+    top: 1px;
+}
+
+.resimler {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 5px solid black;
+    margin-left: 200px;
+}
+
+.fiyat {
+    width: 150px;
+    height: 100px;
+    background-color: rgba(34, 34, 34, 0.507);
+    color: White;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    border: 5px solid black;
+    margin-left: 10px;
+}
+
+.arttirazalt {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #222;
+    color: white;
+}
+
+.adet {
+    width: 100px;
+    height: 50px;
+    background-color: #444;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+}
+
+.uruntop {
+    width: 200px;
+    height: 100px;
+    background-color: #222;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border: 5px solid black;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.stok {
+    width: 200px;
+    height: 100px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    margin-left: 10px;
+    border: 5px solid black;
+}
+
+.kitapbilgi {
+    width: 200px;
+    height: 100px;
+    background-color: #222;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10px;
+    float: left;
+    border: 5px solid black;
+}
+
+.kaldir {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(156, 22, 22);
+    color: white;
+    float: left;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#geneltoplam {
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.281);
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    border: 15px solid rgba(173, 11, 11, 0.479);
+    margin: auto;
+}
+
+.cikart {
+    background-color: rgb(179, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    border: 5px solid black;
+}
+
+#isimlik {
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.411);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border: 10px solid black;
+    float: right;
+    padding-top: 20px;
+    margin-right: 20px;
+    margin-top: -20px;
+}

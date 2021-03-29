@@ -1,0 +1,304 @@
+body {
+    background: url("arkaplan21.jpg") 0 0 no-repeat fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#kitap_ad {
+    margin-top: 30px;
+}
+
+#cikis {
+    width: 20%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.623);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 40%;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.textler {
+    width: 50%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: bisque;
+    text-align: center;
+}
+
+::placeholder {
+    color: white;
+    text-align: center;
+}
+
+#resimbutonu1 {
+    background-color: rgba(0, 0, 0, 0.534);
+}
+
+#ekle {
+    background-color: rgba(0, 0, 0, 0.534);
+    font-size: 20px;
+    color: white;
+}
+
+
+/* --------------------------------------------------------------------------------------------------- */
+
+#dis {
+    background-color: rgba(34, 34, 34, 0);
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    color: white;
+    margin-top: 50px;
+}
+
+.kad {
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgba(34, 34, 34, 0.418);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    float: left;
+    margin-left: 40px;
+}
+
+.kyazar {
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgba(34, 34, 34, 0.418);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    float: left;
+}
+
+.kfiyat {
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgba(34, 34, 34, 0.418);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    float: left;
+}
+
+.kbarkod {
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgba(34, 34, 34, 0.418);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    float: left;
+}
+
+.düzenle {
+    width: 150px;
+    height: 60px;
+    padding: 10px;
+    background-color: #0096874d;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    float: left;
+}
+
+#update {
+    background-color: black;
+    color: white;
+    width: 30%;
+    float: right;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 35px;
+}
+
+#ktpresim {
+    width: 30%;
+    height: 200px;
+    margin-top: 10px;
+}
+
+#ktpad {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+#ktpyazar {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+#ktpicerik {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+#ktpsayfa {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+#ktpbarkod {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+#ktpstok {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+#ktpfiyat {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+input[type="file"] {
+    cursor: pointer !Important;
+    font: 300 14px sans-serif;
+    color: #9e9e9e;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    font: 300 14px sans-serif;
+    background: #009688;
+    border: 0;
+    padding: 12px 25px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+input[type="file"]::-ms-browse {
+    font: 300 14px 'Roboto', sans-serif;
+    background: #009688;
+    border: 0;
+    padding: 12px 25px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#kaydet {
+    font: 300 14px 'Roboto', sans-serif;
+    background: #009688;
+    border: 0;
+    padding: 12px 25px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#x {
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.kitapdelete {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#ekleresimalanı {
+    position: relative;
+    float: left;
+    margin-left: -300px;
+    margin-top: -260px;
+    width: 30%;
+    height: 300px;
+}
+
+#lazim {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+#EKLE {
+    width: 20%;
+    height: 100px;
+    background-color: #00000050;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#admin {
+    font-size: 50px;
+    color: white;
+    font-style: italic;
+    margin-top: 150px;
+    text-align: center;
+}

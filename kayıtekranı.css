@@ -1,0 +1,47 @@
+body {
+    background: url("arkaplan1.jpg") 0 0 no-repeat fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#container {
+    width: 50%;
+    height: 600px;
+    border: 10px solid black;
+    background-color: rgba(0, 0, 0, 0.459);
+    margin: auto;
+    margin-top: 70px;
+}
+
+.inputkayıt {
+    width: 50%;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.219);
+    color: White;
+    margin-left: 180px;
+    margin-top: 70px;
+}
+
+#kayıt {
+    width: 25%;
+    height: 40px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.452);
+    color: White;
+    margin-left: 180px;
+    margin-top: 50px;
+    float: left;
+}
+
+#ipt {
+    width: 25%;
+    height: 40px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.452);
+    color: White;
+    float: left;
+    margin-top: 50px;
+}
